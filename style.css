@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+body{font-family: 'Space Grotesk', sans-serif;}
+
+.morAlan{
+background-image: url('bg-main-desktop.png');
+background-size: cover;
+background-repeat: no-repeat;
+
+height: 100vh;
+width: 100%;
+}
+.beyazEkran{
+    /* margin-left: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+}
+.container{
+    padding: 0px;
+    margin: 0px;
+}
+
+form{
+    
+    margin-left: 100px;
+    width: 400px;
+}
+
+.inlineInput{
+    width: 75px;
+    border-color: white;
+    margin-bottom: 35px;
+    margin-right: 15px;
+}
+
+.card1{
+margin-left: 100px;
+margin-bottom: 50px;
+top: 100px;
+position: absolute;
+}
+
+.card2{
+    margin-left: 150px;
+    margin-top: 300px;
+    top: 100px;
+    position: absolute;
+}
+.formInput{
+    border-color: white;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+.cartnametext{
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+    color: white;
+    font-style: italic;
+    font-weight: normal;
+}
+.cartnumbertext{
+    position: absolute;
+    left: 15%;
+    bottom: 20%;
+    color: white;
+}
+.cartmonthtext{
+    position: absolute;
+    left: 75%;
+    bottom: 15%;
+    color: white;
+}
+.cartyeartext{
+    position: absolute;
+    left: 82%;
+    bottom: 15%;
+    color: white;
+}
+.cartslashtext{
+    position: absolute;
+    left: 80%;
+    bottom: 15%;
+}
+.cartcvvtext{
+    position: absolute;
+    left: 80%;
+    bottom: 45%;
+    color: white;
+}
